@@ -9,10 +9,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': "url('/assets/images/png/herobg.png')",
+        'blue-pattern': "url('/assets/images/png/newslatterbg.png')",
+        'footer-pattern': "url('/assets/images/png/footer.png')",
+        "gradientbtn": "linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%)",
       },
+      backgroundSize: {
+        'full': "100% 100%;"
+      },
+      fontFamily: {
+        'outfit': ["Outfit", "sans - serif"]
+      }
     },
   },
   plugins: [],
