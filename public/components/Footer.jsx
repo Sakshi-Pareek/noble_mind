@@ -8,7 +8,7 @@ export default function Footer() {
   const year = Dates.getFullYear();
   return (
     <>
-      <div className=" bg-footer-pattern bg-no-repeat bg-center bg-cover bg-[#141305] sm:pt-[138px] pt-24">
+      <div className="bg-footer-pattern bg-no-repeat bg-center bg-full bg-[#141305] sm:pt-[138px] pt-24">
         <div className="container lg:max-w-[1164px] px-3 mx-auto">
           <div className="flex flex-wrap justify-between sm:mb-[52px] mb-10 lg:gap-0 gap-10">
             <div className="lg:w-[30%] w-full">

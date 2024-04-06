@@ -11,7 +11,7 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/assets/images/png/herobg.png')",
         'blue-pattern': "url('/assets/images/png/newslatterbg.png')",
-        'footer-pattern': "url('/assets/images/png/footer.png')",
+        'footer-pattern': "url('/assets/images/png/footerbg.png')",
         "gradientbtn": "linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%)",
       },
       backgroundSize: {

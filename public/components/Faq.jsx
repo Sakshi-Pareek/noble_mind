@@ -40,7 +40,7 @@ export default function Faq() {
             </span>
           </p>
           <div
-            className="flex flex-col w-full gap-[18px] max-w-[780px] mx-auto overflow-hidden sm:px-5 px-2 md:pt-[52px] sm:pt-10 py-5 sm:pb-7"
+            className="flex flex-col w-full gap-[18px] max-w-[814px] mx-auto overflow-hidden sm:px-5 px-2 md:pt-[52px] sm:pt-10 py-5 sm:pb-7"
             data-aos="zoom-in-up"
           >
             <Accordion
@@ -49,7 +49,7 @@ export default function Faq() {
                 open === 1
                   ? "border border-b-[6px] border-[#A854E9]"
                   : "border-[#A854E933] border"
-              }  border-solid rounded-md sm:px-6 px-2 sm:py-6 py-3 shadow-[0px_4px_32px_0px_#00000014]
+              }  border-solid rounded-md sm:px-6 px-2 sm:py-[22.5px] py-3 shadow-[0px_4px_32px_0px_#00000014]
                 `}
             >
               <AccordionHeader
@@ -72,7 +72,7 @@ export default function Faq() {
                   <AccBtn />
                 </div>
               </AccordionHeader>
-              <AccordionBody className="p-0 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
+              <AccordionBody className="pr-10 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -85,7 +85,7 @@ export default function Faq() {
                 open === 2
                   ? "border border-b-[6px] border-[#A854E9]"
                   : "border-[#A854E933] border"
-              }  border-solid rounded-md sm:px-6 px-2 sm:py-6 py-3 shadow-[0px_4px_32px_0px_#00000014]`}
+              }  border-solid rounded-md sm:px-6 px-2 sm:py-[22.5px] py-3 shadow-[0px_4px_32px_0px_#00000014]`}
             >
               <AccordionHeader
                 onClick={() => handleOpen(2)}
@@ -107,7 +107,7 @@ export default function Faq() {
                   <AccBtn />
                 </div>
               </AccordionHeader>
-              <AccordionBody className="p-0 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
+              <AccordionBody className="pr-10 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -120,7 +120,7 @@ export default function Faq() {
                 open === 3
                   ? "border border-b-[6px] border-[#A854E9]"
                   : "border-[#A854E933] border"
-              }  border-solid  rounded-md sm:px-6 px-2 sm:py-6 py-3 shadow-[0px_4px_32px_0px_#00000014]`}
+              }  border-solid  rounded-md sm:px-6 px-2 sm:py-[22.5px] py-3 shadow-[0px_4px_32px_0px_#00000014]`}
             >
               <AccordionHeader
                 onClick={() => handleOpen(3)}
@@ -142,7 +142,7 @@ export default function Faq() {
                   <AccBtn />
                 </div>
               </AccordionHeader>
-              <AccordionBody className="p-0 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
+              <AccordionBody className="pr-10 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -155,7 +155,7 @@ export default function Faq() {
                 open === 4
                   ? "border border-b-[6px] border-[#A854E9]"
                   : "border-[#A854E933] border"
-              }  border-solid rounded-md sm:px-6 px-2 sm:py-6 py-3 shadow-[0px_4px_32px_0px_#00000014]`}
+              }  border-solid rounded-md sm:px-6 px-2 sm:py-[22.5px] py-3 shadow-[0px_4px_32px_0px_#00000014]`}
             >
               <AccordionHeader
                 onClick={() => handleOpen(4)}
@@ -177,7 +177,7 @@ export default function Faq() {
                   <AccBtn />
                 </div>
               </AccordionHeader>
-              <AccordionBody className="p-0 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
+              <AccordionBody className="pr-10 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,
@@ -190,7 +190,7 @@ export default function Faq() {
                 open === 5
                   ? "border border-b-[6px] border-[#A854E9]"
                   : "border-[#A854E933] border"
-              }  border-solid  rounded-md sm:px-6 px-2 sm:py-6 py-3 shadow-[0px_4px_32px_0px_#00000014]`}
+              }  border-solid rounded-md sm:px-6 px-2 sm:py-[22.5px] py-3 shadow-[0px_4px_32px_0px_#00000014]`}
             >
               <AccordionHeader
                 onClick={() => handleOpen(5)}
@@ -212,7 +212,7 @@ export default function Faq() {
                   <AccBtn />
                 </div>
               </AccordionHeader>
-              <AccordionBody className="p-0 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
+              <AccordionBody className="pr-10 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
                 Artificial Intelligence refers to the development of computer
                 systems that can perform tasks that typically require human
                 intelligence. These tasks include learning, reasoning,

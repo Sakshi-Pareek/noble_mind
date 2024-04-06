@@ -83,7 +83,7 @@ export default function first() {
         id="contact"
       >
         <div className="flex flex-wrap justify-between lg:gap-0 gap-7">
-          <div className="xl:w-[44%] lg:w-[48%] w-full" data-aos="fade-right">
+          <div className="xl:w-[42%] lg:w-[48%] w-full" data-aos="fade-right">
             <h2 className="ff_outfit font-lighter xl:text-[48px] sm:text-[40px] text-[32px] xl:leading-[58px] sm:leading-[45px] leading-[35px] text-[#131200] mb-[16px] lg:text-start text-center">
               <span className="font-semibold ">Contact</span> Us
             </h2>
@@ -92,8 +92,8 @@ export default function first() {
               <span className="lg:block">as soon as we can! </span>
             </p>
             <form onSubmit={handleSubmit}>
-              <div className="md:flex items-center justify-between">
-                <div className="form-group w-full md:max-w-[360px] lg:max-w-[233px]">
+              <div className="md:flex items-center justify-between gap-[11px]">
+                <div className="form-group w-full">
                   <label
                     className="font-normal text-[#131200] text-[16px] opacity-[70%]"
                     htmlFor="name"
@@ -112,12 +112,12 @@ export default function first() {
                     <p className="error-message">{formErrors.name}</p>
                   )}
                 </div>
-                <div className="form-group w-full md:max-w-[360px] lg:max-w-[233px]">
+                <div className="form-group w-full">
                   <label
                     className="font-normal text-[#131200] text-[16px] opacity-[70%]"
                     htmlFor="lastname"
                   >
-                    Lastname
+                    Last Name
                   </label>
                   <input
                     className="outline-none border-solid border-[1px] border-[#13120033] p-[11px] w-full rounded-[5px]"

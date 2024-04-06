@@ -74,7 +74,7 @@ const Header = () => {
                   FAQ
                 </Link>
                 <div className="lg:hidden block">
-                  <Commonbtn btnname="Contact us" />
+                  <Commonbtn btnname="Contact Us" />
                 </div>
               </div>
               <div
@@ -104,7 +104,7 @@ const Header = () => {
                 ></span>
               </div>
               <div className="lg:flex hidden">
-                <Commonbtn btnname="Contact us" />
+                <Commonbtn btnname="Contact Us" />
               </div>
             </div>
           </nav>

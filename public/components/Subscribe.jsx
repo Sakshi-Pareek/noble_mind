@@ -27,7 +27,7 @@ export default function Subscribe() {
                 placeholder="Enter your email"
                 className="ff_outfit font-semibold text-[16px] leading-[24px] placeholder:text-[#FDFDFF] bg-transparent text-[#FDFDFF] outline-none w-full"
               />
-              <button className="ff_outfit font-semibold text-[16px] leading-[24px] text-[#FDFDFF] hover:text-[#985FEC] transition-all duration-300 ease-linear hover:bg-white px-6 sm:py-3.5 py-3 border border-solid border-[#FDFDFF] rounded">
+              <button className="ff_outfit font-semibold text-[16px] leading-[24px] text-[#FDFDFF] hover:text-[#985FEC] transition-all duration-300 ease-linear hover:bg-white px-6 sm:py-[13px] py-3 border border-solid border-[#FDFDFF] rounded">
                 Subscribe
               </button>
             </div>

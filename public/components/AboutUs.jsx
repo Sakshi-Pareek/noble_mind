@@ -25,7 +25,7 @@ export default function AboutUs() {
               />
             </div>
             <div
-              className="lg:w-[47%] w-full lg:text-start text-center"
+              className="lg:w-[46%] w-full lg:text-start text-center"
               data-aos="fade-left"
             >
               <p className="font-normal text-base text-[#131200] flex items-center gap-1.5 lg:justify-start justify-center">
@@ -33,11 +33,10 @@ export default function AboutUs() {
                 About Us
               </p>
               <h2 className="ff_outfit font-light xl:text-[48px] sm:text-[40px] text-[32px] xl:leading-[58px] sm:leading-[45px] leading-[35px] text-black mt-2 sm:mb-4 mb-3 lg:text-start text-center">
-                Pioneering Vision & Mission-{" "}
+                Pioneering Vision & Mission-
                 <span className="font-semibold">
                   Driven Sectoral Innovation
                 </span>
-                "
               </h2>
               <p className="font-normal text-base text-[#131200] xl:pr-7 xl:mb-[42px] md:mb-7 mb-5 lg:text-start text-center">
                 Imagine a future in Saudi Arabia influenced by the potential of
